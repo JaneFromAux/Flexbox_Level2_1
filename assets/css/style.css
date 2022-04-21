@@ -8,8 +8,14 @@
     font-size: 62.5%;
 }
 main{
+    width: 100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 10px;
     background-color:aqua;
+}
+main img{
+    margin-top: 20px;
+    margin-bottom:20px;
 }
